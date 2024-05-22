@@ -1,0 +1,18 @@
+patch:
+  schema_list:
+    - schema: double_pinyin_flypy
+    - schema: rime_ice
+    - schema: double_pinyin
+    - schema: double_pinyin_mspy
+
+  switcher:
+    caption: 「方案选单」
+    hotkeys:
+      - Control+Shift+grave
+    save_options:
+      - ascii_punct
+      - traditionalization
+      - emoji
+    fold_options: true
+    abbreviate_options: true
+    option_list_separator: " / "
